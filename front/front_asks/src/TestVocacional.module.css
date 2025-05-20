@@ -1,0 +1,96 @@
+/* Estilos para el contenedor principal del test */
+.contenedor {
+  background-color: #f4f4f4; /* Un color de fondo gris claro */
+  padding: 20px; /* Espacio alrededor del contenido */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Espacio debajo del contenedor */
+}
+
+/* Estilo para el título principal */
+.titulo {
+  color: #333; /* Color de texto oscuro */
+  margin-bottom: 15px; /* Espacio debajo del título */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para las preguntas */
+.pregunta {
+  color: #555; /* Color de texto gris */
+  margin-bottom: 10px;
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para cada opción de respuesta (el label) */
+.labelRespuesta {
+  display: block; /* Hace que cada label ocupe una línea completa */
+  margin-bottom: 8px;
+  color: #777;
+}
+
+/* Estilo para los botones */
+.boton {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color de texto blanco */
+  padding: 10px 20px; /* Espacio dentro del botón */
+  border: none; /* Quita el borde predeterminado */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  font-size: 16px;
+}
+
+/* Estilo para el botón cuando el cursor está encima */
+.boton:hover {
+  background-color: #0056b3; /* Un azul más oscuro al pasar el ratón */
+}
+
+/* Estilo para el botón cuando está deshabilitado */
+.boton:disabled {
+  background-color: #ccc; /* Color gris más claro */
+  cursor: not-allowed; /* Indica que no se puede interactuar */
+}
+
+/* Estilos para la sección de resultados */
+.resultadosContenedor {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd; /* Borde delgado gris */
+  border-radius: 5px;
+}
+
+.tituloResultados {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la lista de respuestas */
+.listaRespuestas {
+  list-style: none; /* Quita los puntos de la lista */
+  padding: 0;
+}
+
+.itemRespuesta {
+  margin-bottom: 5px;
+}
+
+/* Estilos para el formulario de registro */
+.formularioContenedor {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.labelFormulario {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.inputFormulario {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Evita que el padding aumente el ancho total */
+}
